@@ -25,4 +25,23 @@ $base-margin: 20px;
 
 .store {
   background-color: #40a9ff;
+  padding: 20px;
+}
+.phone-product {
+  padding: 20px;
+}
+
+.phone-product article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.model {
+  padding-bottom: 20px;
+}
+
+.phone-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
