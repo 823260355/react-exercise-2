@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class IPhone extends React.Component {
+class Phone extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -24,8 +24,8 @@ class IPhone extends React.Component {
     );
   }
 }
-IPhone.propTypes = {
+Phone.propTypes = {
   id: PropTypes.string,
   price: PropTypes.number,
 };
-export default IPhone;
+export default Phone;

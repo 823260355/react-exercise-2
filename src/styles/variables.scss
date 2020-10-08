@@ -27,13 +27,8 @@ $base-margin: 20px;
   background-color: #40a9ff;
   padding: 20px;
 }
-.phone-product {
+.phone-product, .huawei-product {
   padding: 20px;
-}
-
-.phone-product article {
-  display: flex;
-  justify-content: space-between;
 }
 
 .model {
@@ -42,6 +37,7 @@ $base-margin: 20px;
 
 .phone-price {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
 }
+

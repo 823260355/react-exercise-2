@@ -1,21 +1,20 @@
 import React from 'react';
 import Phone from './Phone';
 
-class IPhoneProduct extends React.Component {
+class HuaWeiProduct extends React.Component {
   constructor(props) {
     super(props);
-    this.phoneModel = ['iPhone11', 'iPhoneXS', 'iPhoneSE'];
     this.phoneModel = [
-      { model: 'iPhone11', price: 5999 },
-      { model: 'iPhoneXS', price: 5399 },
-      { model: 'iPhoneSE', price: 3599 },
+      { model: 'HUAWEI P40 Pro+', price: 7999 },
+      { model: 'HUAWEI Mate 30', price: 5000 },
+      { model: 'HUAWEI nova 7', price: 4000 },
     ];
   }
 
   render() {
     return (
-      <section className="phone-product">
-        <h2>iPhone</h2>
+      <section className="huawei-part">
+        <h2>HUAWEI</h2>
         <article>
           {this.phoneModel.map((phone) => (
             <Phone id={phone.model} key={phone.model} price={phone.price} />
@@ -25,4 +24,4 @@ class IPhoneProduct extends React.Component {
     );
   }
 }
-export default IPhoneProduct;
+export default HuaWeiProduct;
