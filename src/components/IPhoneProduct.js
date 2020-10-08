@@ -1,7 +1,7 @@
 import React from 'react';
-import Phone from './Phone';
+import IPhone from './IPhone';
 
-class PhoneProduct extends React.Component {
+class IPhoneProduct extends React.Component {
   constructor(props) {
     super(props);
     this.phoneModel = ['iPhone11', 'iPhoneXS', 'iPhoneSE'];
@@ -18,11 +18,11 @@ class PhoneProduct extends React.Component {
         <h2>iPhone</h2>
         <article>
           {this.phoneModel.map((phone) => (
-            <Phone id={phone.model} key={phone.model} price={phone.price} />
+            <IPhone id={phone.model} key={phone.model} price={phone.price} />
           ))}
         </article>
       </section>
     );
   }
 }
-export default PhoneProduct;
+export default IPhoneProduct;
